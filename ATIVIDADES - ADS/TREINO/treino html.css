@@ -1,0 +1,19 @@
+h1 {
+    background-color: brown;
+    font-style: italic;
+}
+
+.conteiner-1 a:hover {
+    color: blue;
+    text-align: center; 
+    
+}
+
+.botao-link {
+    font-style: italic;
+    color: blueviolet;
+    
+}
+
+.botao-link a:hover { color: rgb(2, 0, 0);
+}

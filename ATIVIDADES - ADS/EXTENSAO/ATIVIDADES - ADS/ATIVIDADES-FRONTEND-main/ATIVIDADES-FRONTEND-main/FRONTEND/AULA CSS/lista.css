@@ -1,0 +1,17 @@
+body { 
+    background-color: bisque;
+}
+
+#titulo {
+    color: white;
+}
+
+.cor-red {
+    color: aqua;
+}
+
+img {
+    border-radius: 10px;width: 200px;
+  }
+
+    

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let saldo = 0
+        let sair = false
+        while (!sair) {
+            let opcao = prompt("bem vindo! \n"+
+                            "4 -> sair")
+            if (opcao == 4) {
+                alert("obrigado, até aproxima")
+                sair = true
+            } else if (opcao == 1) {
+                let valor = prompt("Qual o valor do deposito?")
+                saldo = saldo + parseFloat(valor)
+                alert(saldo)
+            } else if (opcao == 2) {
+                alert("seu saldo é  "   + saldo)
+            }
+            else if (opcao == 3) {
+                let valor = prompt("Qual o valor do saque?")
+                    | saldo == saldo  - parseFloat(valor)
+            }
+            else {
+                alert("opcao invalida, tente novamente")
+            }
+        }
+    </script>
+</body>
+
+</html>

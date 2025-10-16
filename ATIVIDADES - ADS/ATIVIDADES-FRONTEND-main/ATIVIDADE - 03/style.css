@@ -1,0 +1,27 @@
+.cartao {
+    background-color: #020524; 
+    border-radius: 15px;      
+    padding: 60px;            
+    text-align: center;       
+    width: 600px;             
+    margin: 50px auto;        
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+h1 {
+    margin-bottom: 10px; 
+    font-size: 60px;
+}
+
+p {
+    margin-top: 5px; 
+    color: #ac5707;
+    font-size: 50px;   
+}
+.cartao h1 {
+    color: #ca0a0a;
+   
+}
+
+
+

@@ -1,0 +1,47 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu-fixo {
+    background-color: #078f0e; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    overflow: hidden; 
+}
+
+
+.menu-fixo ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+
+.menu-fixo li {
+    display: inline-block; 
+}
+
+
+.menu-fixo a {
+    display: block;
+    color: rgb(117, 10, 69); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+
+.menu-fixo a:hover {
+    color: #d8d523; 
+}
+
+h1 {
+    color: #b31611;
+}
+p {
+    color: rgb(139, 234, 247);
+}
