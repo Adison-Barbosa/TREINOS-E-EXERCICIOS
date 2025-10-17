@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+
+    <h1 id="titulo"></h1>
+
+    <ol class="itens">
+
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <script>
+        let titulo = document.getElementById("titulo")
+        let itens = document.getElementsByClassName("item")
+        titulo.textContent = "novo Titulo"
+        titulo.style.color = "blue"
+        titulo.style.fontSize= "24px"
+
+        for (let c = 0; c <= itens.length; c++) {
+            itens[c].textContent = "novo item" + c
+            itens[c].style.cursor = "pointer"
+            itens[c].addEventListener("click", () => {
+                alert(itens[c].textContent)
+            })
+        }
+
+        console.log(titulo)
+        console.log(itens)
+    </script>
+</body>
+
+</html>
